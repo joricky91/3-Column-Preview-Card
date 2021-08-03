@@ -94,3 +94,40 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
+@media (min-width: 900px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .container .card-sedans{
+        padding: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .container .card-suvs{
+        padding: 0;
+    }
+
+    .container .card-luxury{
+        padding: 0;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card-container{
+        margin-bottom: 20px;
+        padding: 40px;
+    }
+
+    .card-heading{
+        padding: 15px 0
+    }
+
+    .card-p{
+        padding-bottom: 40px;
+    }
+}
